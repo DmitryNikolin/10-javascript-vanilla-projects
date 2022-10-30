@@ -2,7 +2,7 @@ const countdownElement = document.querySelector(".countdown");
 const items = document.querySelectorAll(".countdown-item > h4");
 
 // Назначаем дату отсчета
-let countdownDate = new Date(2022, 11, 18, 10, 0, 0).getTime();
+let countdownDate = new Date(2022, 12, 31, 10, 0, 0).getTime();
 
 function getCountTime() {
   // Получаем текущее время
